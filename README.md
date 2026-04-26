@@ -36,7 +36,7 @@ La intención del proyecto es concientizar sobre la importancia de los glaciares
 
 ### Páginas extras:
 - **informe_glaciares.html:** Resumen sin tecnicismos de un estudio sobre la situación de los glaciares realizado por **Ricardo Villaba**, Investigador del **CONICET**.
-- **glaciares_argentinos.html:** Página sobre datos relacionados a los glaciares de Argentino.
+- **glaciares_argentinos.html:** Página sobre datos relacionados a los glaciares de Argentina.
 
 ## Tecnologías utilizadas
 - HTML5
@@ -46,17 +46,20 @@ La intención del proyecto es concientizar sobre la importancia de los glaciares
 - Git y Github (control de versiones)
 - Matplotlib (para crear los gráficos)
 
-## Estructura de direcorios del proyecto
+## Estructura de direcorios del proyecto (Etapa 1: Estructura HTML)
     tp_ong_grupo_1/                 
     ├── index.html  
     ├── nosotros.html   
     ├── programas.html  
-    ├── contacto.html    
+    ├── contacto.html
+    ├── informe_glaciares.html
+    ├── glaciares_argentinos.html    
     └── assets/  
         ├── icons/  
         └── img/   
-            ├── gráficos/  
-            └── glaciares/
+            ├── glaciares/  
+            ├── gráficos/
+            └── nosotros/
 
 ## Cómo ejecutar el proyecto
 1. clonar el repositorio: git clone https://github.com/RodriManuel/tp-ong-grupo-1.git
