@@ -6,7 +6,7 @@
     <title>Contacto - Nombre de la ONG</title>
 </head>
 <body>
-<!----------------------------------------------------------------------------->
+
 <!--Menú de Navegación-->
     <header>
         <nav>
@@ -18,9 +18,6 @@
             </ul>
         </nav>
     </header>
-<!----------------------------------------------------------------------------->
-
-<!----------------------------------------------------------------------------->
 
     <main>
         <h1>Contacto</h1>
@@ -48,27 +45,40 @@
         <hr>
 
         <section id="form-contacto">
-            <h2>Contacto</h2>
-            <p>¡Enterate de todas nuestras novedades!</p>
-            <P>Suscribíte a nuestro Newsletter</P>
-            <p>Tu nombre (obligatorio)<br> <input type="text"></p>
-            <p>Tu correo electrónico (obligatorio)<br> <input type="text"></p>
-            <p>Asunto<br> <input type="text"></p>
-            <p>Tu mensaje<br> <textarea name="" id=""></textarea> </p>
-            
-            <button>Enviar</button>
+            <h2>Envianos un mensaje</h2>
+            <form action="#" method="post">
+                <label for="nombre">Tu nombre (obligatorio):</label><br>
+                <input type="text" id="nombre" name="nombre" 
+                    placeholder="Ej.: Juan Perez" required><br><br>
+
+                <label for="email">Tu correo electrónico (obligatorio):</label><br>
+                <input type="email" id="email" name="email" 
+                    placeholder="tu@email.com" required><br><br>
+
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto"><br><br>
+
+                <label for="mensaje">Tu mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos de vos"></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
         </section>
 
         <hr>
 
         <section id="form-newsletter">
             <h2>Newsletter</h2>
-            <p>¡Enterate de todas nuestras novedades!</p>
-            <P>Suscribíte a nuestro Newsletter</P>
-            <p>Email: <input type="text"></p>
-            <p>Nombre; <input type="text"></p>
-            <p>Apellido: <input type="text"></p>
-            <button>SUSCRIBIRME</button>
+            <p>¡Enterate de todas nuestras novedades! Suscribíte a nuestro Newsletter.</p>
+            <form action="#" method="post">
+                <label for="news-email">Email:</label>
+                <input type="email" id="news-email" name="news-email" required>
+                
+                <label for="news-nombre">Nombre:</label>
+                <input type="text" id="news-nombre" name="news-nombre">
+                
+                <button type="submit">SUSCRIBIRME</button>
+            </form>
         </section>
 
         <hr>
