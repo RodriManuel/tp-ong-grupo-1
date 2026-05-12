@@ -1,1 +1,9 @@
 /*Estilos generales para Glaciares UNAHUR*/
+:root {
+    --verde-call-to-action: #2E7D32;
+    --gris-textos: #4A4A4A;
+    --fondo-general: #E6F2F8;
+    --fondo-secundario: #ABCDE1;
+    --seccion-clave: #2D7D9D;
+    --encabezado-destacado: #1E5ABA; 
+}
