@@ -1,7 +1,7 @@
 /*Estilos generales para Glaciares UNAHUR*/
 :root {
     --verde-call-to-action: #2E7D32;
-    --gris-textos: #4A4A4A;
+    --gris-texto: #4A4A4A;
     --fondo-general: #E6F2F8;
     --fondo-secundario: #ABCDE1;
     --seccion-clave: #2D7D9D;
@@ -21,38 +21,28 @@ Para vincular pegar abajo del anterior:
 
 body{
     font-family: 'Lato', sans-serif;
-    background-color: #E6F2F8;
-    color: #4A4A4A;
+    background-color: var(--fondo-general);
+    color: var(--gris-texto);
     line-height: 1.6;
     margin: 0;     /* No sé cómo hacer para que las palabras no estén pegadas al borde izquierdo (PREGUNTAR) */
 }
 
-h1{
+h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
-    color: #1E5A8A;
-}
-
-h2{
-    font-family: 'Montserrat', sans-serif;
-    color: #1E5A8A;
-}
-
-h3{
-    font-family: 'Montserrat', sans-serif;
-    color: #1E5A8A;
+    color: var(--encabezado-destacado);
 }
 
 #form-contacto{
     background-color: #FFFFFF;  /* BLACO PARA QUE RESALTE*/
     padding: 30px;
-    border-left: 8px solid #2D7D9D;  /*HACE UN DETALLE DE COLOR A LA IZQUIERDA*/
+    border-left: 8px solid var(--seccion-clave);  /*HACE UN DETALLE DE COLOR A LA IZQUIERDA*/
     max-width: 600px;
     margin: 20px auto;
     
 }
 
 button{
-    background-color: #2E7D32;  /* Verde (O podemos poner el mismo celeste #1E5A8A) */
+    background-color: var(--verde-call-to-action);  /* Verde (O podemos poner el mismo celeste #1E5A8A) */
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;    /*NO ESTOY SEGURA DE LO QUE HACE*/
