@@ -8,6 +8,13 @@
     --encabezado-destacado: #1E5ABA; 
 }
 
+/* Reset para eliminar todos los márgenes y rellenos predeterminados*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*
 Pegar en el head antes de linkear al archivo styles.css para importar los tipos de letras:
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
