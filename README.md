@@ -1,4 +1,8 @@
-# Glaciares UNaHur
+<p align="center">
+    <img src="assets/logo/logo-glaciares-unahur.svg" alt="logo_glaciares_unahur">
+</p>
+
+# Glaciares UNAHUR
 Sitio web institucional desarrollado en el contexto de trabajo práctico grupal para la materia **Lenguajes Informáticos I**.
 
 La intención del proyecto es concientizar sobre la importancia de los glaciares en Argentina, su estado actual y promover acciones para su preservación.
@@ -13,7 +17,7 @@ La intención del proyecto es concientizar sobre la importancia de los glaciares
 - Rodrigo Perez: **Página de inicio** e informativas
   - **index.html**
   - informe_glaciares.html
-  - glaciares_argeentinos.html
+  - glaciares_argentinos.html
 
 - Celeste Gonzalez Ortiz: **Sección Nosotros**
   - **nosotros.html**
