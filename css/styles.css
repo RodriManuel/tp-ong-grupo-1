@@ -17,14 +17,12 @@
 
 /*
 Pegar en el head antes de linkear al archivo styles.css para importar los tipos de letras:
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 Para vincular pegar abajo del anterior:
-<link rel="stylesheet" href="css/contacto.css">
-
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/contacto.css">
-
+<link rel="stylesheet" href="css/styles.css">
 */
+
+/* ESTILOS GLOBALES Y BODY (Tipografía y Estructura Global) */
 
 body{
     font-family: 'Lato', sans-serif;
@@ -37,6 +35,8 @@ body{
     padding: 0 1rem; 
 }
 
+/* Estilos diferenciados para headings */
+
 h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
     color: var(--encabezado-destacado);
@@ -46,20 +46,43 @@ h1{font-size: 2.2rem;}
 h2{font-size: 1.8rem;}
 h3{font-size: 1.5rem;}
 
+/* FORMULARIOS (Contacto  */
+
 #form-contacto{
     background-color: #FFFFFF;  /* BLACO PARA QUE RESALTE*/
     padding: 30px;
+    border-radius: 8px;
     border-left: 8px solid var(--seccion-clave);  /*HACE UN DETALLE DE COLOR A LA IZQUIERDA*/
     max-width: 600px;
     margin: 20px auto;
-    
 }
 
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid var(--fondo-secundario);
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Botón de acción con el verde de la paleta */
+
 button{
-    background-color: var(--verde-call-to-action);  /* Verde (O podemos poner el mismo celeste #1E5A8A) */
+    background-color: var(--verde-call-to-action); 
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;    /*NO ESTOY SEGURA DE LO QUE HACE*/
+    padding: 12px 24px;
+    font-weight: bold;    
     padding: 10px 25px;
     border: #FFFFFF;
+    border-radius: 25px;
+
+}
+
+button:hover {
+    background-color: #1b5e20;       /* Efecto hover interactivo */
 }
