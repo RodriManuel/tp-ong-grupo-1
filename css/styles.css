@@ -425,6 +425,61 @@ footer h3{
     color: var(--encabezado-destacado);
 }
 
+/* Linea de tiempo */
+
+.timeline-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+    padding: 20px;
+    border-left: 3px solid var(--encabezado-destacado); 
+    margin-left: 20px;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    position: relative; 
+}
+
+.timeline-dot {
+    width: 15px;
+    height: 15px;
+    background-color: var(--verde-call-to-action);
+    border-radius: 50%;
+    position: absolute;
+    left: -29px;
+    top: 5px;
+    border: 2px solid #FFFFFF; 
+}
+
+/*Fondo y textos de la linea de tiempo */
+.timeline-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px var(--fondo-secundario);
+    border-left: 4px solid var(--verde-call-to-action); 
+    flex: 1;
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+    color: var(--encabezado-destacado);
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--gris-texto);
+}
+.timeline-content strong {
+    color: var(--encabezado-destacado);
+}
+
 /*Lema de la ONG*/
 
 .lema-ONG {
