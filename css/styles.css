@@ -38,6 +38,7 @@ body{
 /*Estilos para la barra de navegación*/
 
 header {
+    background-color: var(--fondo-secundario);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,8 +46,17 @@ header {
 }
 
 .logo {
-    border: 1px solid black;
     width: 50%;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
 }
 
 /*ESTILOS GLOBALES SECCIONES DE CONTENIDO (section, article, párrafos)*/
