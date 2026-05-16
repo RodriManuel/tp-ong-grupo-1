@@ -37,7 +37,22 @@ body{
 
 /*ESTILOS GLOBALES SECCIONES DE CONTENIDO (section, article, párrafos)*/
 
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--gris-texto);
+    padding-left: 1.5rem;
+    margin-bottom: 20px; 
+}
 
+article {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
 
 /* Estilos diferenciados para headings */
 
