@@ -76,6 +76,9 @@ main {
     color: var(--seccion-clave);
 }
 
+.active {
+    background-color: var(--fondo-secundario);
+}
 
 /*ESTILOS GLOBALES SECCIONES DE CONTENIDO (section, article, párrafos)*/
 
