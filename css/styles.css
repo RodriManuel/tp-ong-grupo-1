@@ -186,4 +186,41 @@ button:hover {
     background-color: var(--fondo-general);
 }
 
+/* FOOTER */
+footer{
+    background-color: var(--encabezado-destacado);
+    color: var(--fondo-general);
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 40px;
+    border-radius: 8px 8px 0 0;
 
+}
+
+footer p{
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+footer h3{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.redes-sociales img{
+    /*este filtro cambia los íconos de negro a blanco para que resalten con el color azul del fondo*/
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s;
+}
+
+.redes-sociales img :hover{
+    transform: scale(1.1);
+}
