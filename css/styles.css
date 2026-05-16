@@ -35,6 +35,20 @@ body{
     padding: 0 1rem; 
 }
 
+/*Estilos para la barra de navegación*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    border: 1px solid black;
+    width: 50%;
+}
+
 /*ESTILOS GLOBALES SECCIONES DE CONTENIDO (section, article, párrafos)*/
 
 p {
