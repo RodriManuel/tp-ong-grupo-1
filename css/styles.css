@@ -158,4 +158,32 @@ button:hover {
     margin: 15px 0;
 }
 
+/* TABLA DE PROYECTOS (en programas.html)*/
+
+.tabla-proyectos{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: #FFFFFF;
+}
+
+.tabla-proyectos th{
+    background-color: var(--encabezado-destacado);
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.tabla-proyectos td{
+    padding: 10px;
+    border-bottom: 1px solid var(--fondo-secundario);
+}
+
+/* Alternancia de color en las filas */
+.tabla-proyectos tbody tr:nth-child(even){
+    background-color: var(--fondo-general);
+}
+
 
