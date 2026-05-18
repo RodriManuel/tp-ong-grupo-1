@@ -668,6 +668,7 @@ footer h3{
     padding-left: 0;                 
     margin-bottom: 25px;
     font-size: 1rem;
+    text-align: center;
 }
 
 #form-newsletter input[type="text"],
