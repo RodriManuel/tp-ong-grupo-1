@@ -631,13 +631,18 @@ footer h3{
  /* ESTILOS PARA EL NEWSLETTER (de contacto.html) */
 
  #form-newsletter {
-    background-color: var(--fondo-general);      
+    background-color: var(--fondo-secundario);      
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
     max-width: 600px;                
-    margin: 30px auto;               
-    border-left: 8px solid var(--encabezado-destacado);
+    margin: 30px auto;
+}
+
+#form-newsletter h2 {
+    background-color: var(--fondo-general);
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
 }
 
 #form-newsletter label {
