@@ -639,10 +639,22 @@ footer h3{
     margin: 30px auto;
 }
 
+#logo-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo-form img {
+    width: 192.5px;
+    height: 65px;
+}
+
 #form-newsletter h2 {
     background-color: var(--fondo-general);
     margin-left: -2.5rem;
     margin-right: -2.5rem;
+    line-height: 5rem;
 }
 
 #form-newsletter label {
@@ -666,4 +678,8 @@ footer h3{
     border: 1px solid var(--fondo-secundario);
     border-radius: 4px;
     font-family: 'Lato', sans-serif;
+}
+
+#form-newsletter form {
+    text-align: center;
 }
