@@ -298,13 +298,14 @@ button:hover {
 
 /* FOOTER */
 footer{
-    background-color: var(--encabezado-destacado);
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+    background-color: #131A30;
     color: var(--fondo-general);
     text-align: center;
     padding: 30px 15px;
     margin-top: 40px;
     border-radius: 8px 8px 0 0;
-
 }
 
 footer p{
